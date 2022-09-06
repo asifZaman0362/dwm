@@ -11,7 +11,7 @@ static const int topbar             = 1;     /* 0 means bottom bar */
  
 /* appearance */
 static const unsigned int borderpx  = 2;        /* border pixel of windows */
-static const unsigned int gappx     = 5;        /* gaps between windows */
+static const unsigned int gappx     = 0;        /* gaps between windows */
 static const char *fonts[]          = { "Fantasque Sans Mono:size=18" };
 static const char dmenufont[]       = "Fantasque Sans Mono:size=18";
 static const char col_gray1[]       = "#282828";
@@ -110,15 +110,15 @@ static Key keys[] = {
 	{ MODKEY,                       XK_period, focusmon,       {.i = +1 } },
 	{ MODKEY|ShiftMask,             XK_comma,  tagmon,         {.i = -1 } },
 	{ MODKEY|ShiftMask,             XK_period, tagmon,         {.i = +1 } },
-	TAGKEYS(                        XK_1,                      0)
-	TAGKEYS(                        XK_2,                      1)
-	TAGKEYS(                        XK_3,                      2)
-	TAGKEYS(                        XK_4,                      3)
-	TAGKEYS(                        XK_5,                      4)
-	TAGKEYS(                        XK_6,                      5)
-	TAGKEYS(                        XK_7,                      6)
-	TAGKEYS(                        XK_8,                      7)
-	TAGKEYS(                        XK_9,                      8)
+	TAGKEYS(                        XK_ampersand,                       0)
+	TAGKEYS(                        XK_bracketleft,                     1)
+	TAGKEYS(                        XK_braceleft,                       2)
+	TAGKEYS(                        XK_braceright,                      3)
+	TAGKEYS(                        XK_parenleft,                       4)
+	TAGKEYS(                        XK_equal,                           5)
+	TAGKEYS(                        XK_asterisk,                        6)
+	TAGKEYS(                        XK_parenright,                      7)
+	TAGKEYS(                        XK_plus,                            8)
 	{ MODKEY|ShiftMask,             XK_q,      quitprompt,           {0} },
 };
 
