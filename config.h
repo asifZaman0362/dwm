@@ -12,8 +12,8 @@ static const int topbar             = 1;     /* 0 means bottom bar */
 /* appearance */
 static const unsigned int borderpx  = 2;        /* border pixel of windows */
 static const unsigned int gappx     = 0;        /* gaps between windows */
-static const char *fonts[]          = { "Fantasque Sans Mono:size=18" };
-static const char dmenufont[]       = "Fantasque Sans Mono:size=18";
+static const char *fonts[]          = { "Iosevka Nerd Font:size=18" };
+static const char dmenufont[]       = "Iosevka Nerd Font:size=18";
 static const char col_gray1[]       = "#282828";
 static const char col_gray2[]       = "#404040";
 static const char col_gray3[]       = "#898989";
@@ -27,7 +27,7 @@ static const char *colors[][3]      = {
 };
 
 static const char *const autostart[] = {
-	"st", NULL,
+	"alacritty", NULL,
     "wallpaper", NULL,
     "picom", NULL,
     "statuscmd", NULL,
@@ -82,7 +82,7 @@ static const Layout layouts[] = {
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_gray2, "-sf", col_gray4, NULL };
-static const char *termcmd[]  = { "st", NULL };
+static const char *termcmd[]  = { "alacritty", NULL };
 static const char *dmenu_cmd_desktop[] = { "i3-dmenu-desktop" };
 
 static Key keys[] = {
