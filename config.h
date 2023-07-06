@@ -45,8 +45,6 @@ static char *colors[][3] = {
 static const char *const autostart[] = {
     "alacritty",
     NULL,
-    "picom",
-    NULL,
     "firefox",
     NULL,
     "dunst",
