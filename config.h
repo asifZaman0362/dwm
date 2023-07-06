@@ -12,8 +12,8 @@ static const int topbar             = 1;     /* 0 means bottom bar */
 /* appearance */
 static const unsigned int borderpx  = 2;        /* border pixel of windows */
 static const unsigned int gappx     = 0;        /* gaps between windows */
-static const char *fonts[]          = { "Iosevka Nerd Font:size=18" };
-static const char dmenufont[]       = "Iosevka Nerd Font:size=18";
+static const char *fonts[]          = { "Hack:size=18" };
+static const char dmenufont[]       = "Hack:size=18";
 static const char col_gray1[]       = "#282828";
 static const char col_gray2[]       = "#404040";
 static const char col_gray3[]       = "#898989";
@@ -28,9 +28,8 @@ static const char *colors[][3]      = {
 
 static const char *const autostart[] = {
 	"alacritty", NULL,
-    "wallpaper", NULL,
     "picom", NULL,
-    "statuscmd", NULL,
+    "dwmblocks", NULL,
     "firefox", NULL,
     "dunst", NULL,
     "kdeconnectd", NULL,
@@ -52,7 +51,7 @@ static const Rule rules[] = {
 	/* class      instance    title       tags mask     isfloating   monitor */
 	{ "Gimp",     NULL,       NULL,       8,            1,           -1 },
 	{ "firefox",  NULL,       NULL,       2,            0,           -1 },
-    { "spot",  NULL,  NULL,       16,            0,           -1 }
+    { "Spotify",  NULL,  NULL,       16,            0,           -1 }
 };
 
 /* layout(s) */
