@@ -43,7 +43,7 @@ static char *colors[][3] = {
 };*/
 
 static const char *const autostart[] = {
-    "alacritty",
+    "kitty",
     NULL,
     "firefox",
     NULL,
@@ -108,7 +108,7 @@ static char dmenumon[2] =
 static const char *dmenucmd[] = {
     "dmenu_run", "-m",  dmenumon,  "-fn", dmenufont, "-nb", col_gray1, "-nf",
     col_gray3,   "-sb", col_gray2, "-sf", col_gray4, NULL};
-static const char *termcmd[] = {"alacritty", NULL};
+static const char *termcmd[] = {"kitty", NULL};
 static const char *dmenu_cmd_desktop[] = {"i3-dmenu-desktop"};
 
 static Key keys[] = {
