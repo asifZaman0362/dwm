@@ -55,6 +55,8 @@ static const char *const autostart[] = {
     NULL,
     "sxhkd",
     NULL,
+    "picom",
+    NULL,
     "redshift -O 4500K",
     NULL,
     NULL /* terminate */
