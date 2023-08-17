@@ -1612,8 +1612,8 @@ void quit(const Arg *arg) {
 }
 
 void quitprompt(const Arg *arg) {
-  FILE *pp = popen("echo -e \"no\nrestart\nyes\" | dmenu -i -fn \"Fantasque "
-                   "Sans Mono:pixelsize=22\" -sf \"#ebdbb2\" -sb \"#cc2418\" "
+  FILE *pp = popen("echo -e \"no\nrestart\nyes\" | dmenu -i -fn \"Martian "
+                   "Mono:pixelsize=20\" -sf \"#ebdbb2\" -sb \"#cc2418\" "
                    "-nf \"#928374\" -p \"Quit DWM?\"",
                    "r");
   if (pp != NULL) {
