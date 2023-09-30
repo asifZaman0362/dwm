@@ -59,6 +59,8 @@ static const char *const autostart[] = {
     NULL,
     "redshift -O 4500K",
     NULL,
+    "statuscmd",
+    NULL,
     NULL /* terminate */
 };
 
