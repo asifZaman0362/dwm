@@ -17,8 +17,8 @@ static const int topbar = 1;      /* 0 means bottom bar */
 /* appearance */
 static const unsigned int borderpx = 2; /* border pixel of windows */
 static const unsigned int gappx = 0;    /* gaps between windows */
-static const char *fonts[] = {"UbuntuMono Nerd Font:size=14"};
-static const char dmenufont[] = "UbuntuMono Nerd Font:size=14";
+static const char *fonts[] = {"UbuntuMono Nerd Font:size=16"};
+static const char dmenufont[] = "UbuntuMono Nerd Font:size=16";
 static const char col_gray1[] = "#282828";
 static const char col_gray2[] = "#404040";
 static const char col_gray3[] = "#898989";
